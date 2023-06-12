@@ -1,0 +1,418 @@
+2023-02-02 00:30:13 [development] info: Method:POST URL:/api/admin/products 
+2023-02-02 00:30:13 [development] error: ValidationError: 7 errors occurred
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:63:20)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:17:5
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:63:11)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:17:5
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:63:11)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:17:5
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:63:11)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\createValidation.js:72:104
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-02 00:30:14 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 00:30:19 [development] info: Method:POST URL:/api/admin/products 
+2023-02-02 00:30:19 [development] error: ValidationError: 6 errors occurred
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:63:20)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:17:5
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:63:11)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:17:5
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:63:11)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:17:5
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:63:11)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\createValidation.js:72:104
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-02 00:30:19 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 00:30:25 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 00:30:25 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-02 00:30:25 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-02 00:30:26 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 00:30:50 [development] info: Method:GET URL:/api/admin/products?productName= 
+2023-02-02 00:39:29 [development] info: Method:POST URL:/api/admin/products 
+2023-02-02 00:39:29 [development] error: ValidationError: 6 errors occurred
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:63:20)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:17:5
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:63:11)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:17:5
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:63:11)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:17:5
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:63:11)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\createValidation.js:72:104
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-02 00:39:29 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 00:40:02 [development] info: Method:GET URL:/api/admin/products?productName=Classic%20Margherita 
+2023-02-02 00:40:05 [development] info: Method:GET URL:/api/admin/products?productName=sdfasdfsadfsdf 
+2023-02-02 00:40:17 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-02 00:40:34 [development] info: Method:GET URL:/api/admin/products?productName=Chiken,Tomatoes,Garlic,Cashew%20Nut,Bits 
+2023-02-02 00:44:12 [development] info: Method:GET URL:/api/admin/products?productName=Chiken,Tomatoes,Garlic,Oregano,Letuce,Brocoli 
+2023-02-02 00:44:18 [development] info: Method:DELETE URL:/api/admin/deleteImage 
+2023-02-02 00:44:36 [development] info: Method:GET URL:/api/admin/products?productName=Chiken,Tomatoes,Garlic,Oregano,Letuce,Brocoli, 
+2023-02-02 00:54:09 [development] info: Method:GET URL:/api/admin/products?productName=Chiken,Tomatoes,Garlic,Oregano,Letuce,Brocol 
+2023-02-02 00:54:16 [development] info: Method:GET URL:/api/admin/products?productName=Chiken,Tomatoes,Garlic,Oregano,Letuce,Brocol, 
+2023-02-02 01:08:07 [development] info: Method:GET URL:/api/admin/products?productName=Chiken,Tomatoes,Garlic,Oregano,Letuce,Brocol. 
+2023-02-02 01:08:46 [development] info: Method:GET URL:/api/admin/products?productName=Chiken,Tomatoes,Garlic,Cashew%20Nut,Bits. 
+2023-02-02 01:08:51 [development] info: Method:GET URL:/api/admin/products?productName=Chiken,Tomatoes,Garlic,Cashew%20Nut,Bits, 
+2023-02-02 01:08:59 [development] info: Method:GET URL:/api/admin/products?productName=dsfasdfd 
+2023-02-02 01:09:31 [development] info: Method:GET URL:/api/admin/products?productName=Classic%20Margherita%20Pizza 
+2023-02-02 01:09:38 [development] info: Method:GET URL:/api/admin/products?productName=Classic%20Margherita 
+2023-02-02 01:09:46 [development] info: Method:GET URL:/api/admin/products?productName=sdfsadfsd 
+2023-02-02 01:10:34 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 01:10:34 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-02 01:10:34 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-02 01:10:34 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 01:10:49 [development] info: Method:GET URL:/api/admin/products?productName=Classic%20Margherita 
+2023-02-02 01:10:54 [development] info: Method:GET URL:/api/admin/products?productName= 
+2023-02-02 01:13:38 [development] info: Method:GET URL:/api/admin/products?productName=fdsfasdfd 
+2023-02-02 01:13:46 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-02 01:14:00 [development] info: Method:GET URL:/api/admin/products?productName=Chiken,Tomatoes,Garlic,Oregano 
+2023-02-02 01:14:03 [development] info: Method:POST URL:/api/admin/products 
+2023-02-02 01:14:03 [development] error: ValidationError: Option is required
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:63:20)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:17:5
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:67:9)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:17:5
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:67:9)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:17:5
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:67:9)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\createValidation.js:72:127
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-02 01:14:03 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 01:14:12 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 01:14:12 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-02 01:14:12 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-02 01:14:12 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 01:18:45 [development] info: Method:GET URL:/api/admin/products?productName=Classic%20Margherita 
+2023-02-02 01:18:49 [development] info: Method:GET URL:/api/admin/products?productName=fadfadfdsfd 
+2023-02-02 01:18:57 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-02 01:19:34 [development] info: Method:POST URL:/api/admin/products 
+2023-02-02 01:19:34 [development] error: ValidationError: 2 errors occurred
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:63:20)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:17:5
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:63:11)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:17:5
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:63:11)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:17:5
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:63:11)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\createValidation.js:72:104
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-02 01:19:34 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 11:07:35 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-02 11:07:35 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-02 11:07:35 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-02 11:07:37 [development] error: UnauthorizedError: Request with no or wrong refresh token
+    at Object.refresh [as get] (webpack-internal:///(api)/./pages/api/auth/refresh.js:27:65)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api/api-handler.js:36:13)
+    at async Object.apiResolver (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\api-utils\node.js:367:9)
+    at async DevServer.runApi (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:474:9)
+    at async Object.fn (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:736:37)
+    at async Router.execute (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\router.js:252:36)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\base-server.js:381:29)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\dev\next-dev-server.js:724:20)
+2023-02-02 11:07:46 [development] info: Method:POST URL:/api/auth/login 
+2023-02-02 11:07:56 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-02 13:14:08 [development] info: Method:GET URL:/api/customer/public/products 
+2023-02-02 13:14:23 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 13:14:23 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-02 13:14:23 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-02 13:14:23 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 13:15:18 [development] info: Method:GET URL:/api/admin/products?productName=s 
+2023-02-02 13:16:22 [development] info: Method:GET URL:/api/admin/products?productName= 
+2023-02-02 13:16:29 [development] info: Method:GET URL:/api/admin/products?productName=a 
+2023-02-02 13:21:59 [development] info: Method:GET URL:/api/admin/products?productName=d 
+2023-02-02 14:13:55 [development] info: Method:GET URL:/api/admin/products?productName=Chiken,Tomatoes,Garlic,Oregano 
+2023-02-02 14:14:22 [development] info: Method:GET URL:/api/admin/products?productName=sfs 
+2023-02-02 17:40:57 [development] info: Method:GET URL:/api/admin/products?productName=ssd 
+2023-02-02 17:40:57 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-02 17:40:57 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-02 17:40:59 [development] info: Method:GET URL:/api/admin/products?productName=ssd 
+2023-02-02 18:15:43 [development] info: Method:GET URL:/api/admin/products?productName=S 
+2023-02-02 18:19:31 [development] info: Method:DELETE URL:/api/admin/deleteImage 
+2023-02-02 18:19:32 [development] info: Method:DELETE URL:/api/admin/deleteImage 
+2023-02-02 18:19:33 [development] error: NotFoundError: Not Found
+    at Object.deleteImage [as delete] (webpack-internal:///(api)/./pages/api/admin/deleteImage.js:24:65)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api/api-handler.js:36:13)
+    at async Object.apiResolver (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\api-utils\node.js:367:9)
+    at async DevServer.runApi (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:474:9)
+    at async Object.fn (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:736:37)
+    at async Router.execute (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\router.js:252:36)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\base-server.js:381:29)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\dev\next-dev-server.js:724:20)
+2023-02-02 19:27:46 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-02 19:27:46 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-02 19:27:46 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-02 19:27:46 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-02 19:28:09 [development] info: Method:GET URL:/api/admin/products?productName=aasdhhsdk 
+2023-02-02 19:28:12 [development] info: Method:GET URL:/api/admin/products?productName=aasdhhsdkdf 
+2023-02-02 19:28:19 [development] info: Method:GET URL:/api/admin/products?productName=sdfsfsdfsadfasfsda 
+2023-02-02 19:29:00 [development] info: Method:DELETE URL:/api/admin/products/63d36ef4319eb4b91a0c8410 
+2023-02-02 19:29:07 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 19:29:07 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-02 19:29:07 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-02 19:29:08 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 19:29:11 [development] info: Method:DELETE URL:/api/admin/products/63d36dc7319eb4b91a0c8409 
+2023-02-02 19:29:16 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 19:29:16 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-02 19:29:16 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-02 19:29:16 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 19:31:06 [development] info: Method:GET URL:/api/admin/products?productName=Tasty%20Taco 
+2023-02-02 19:31:09 [development] info: Method:DELETE URL:/api/admin/deleteImage 
+2023-02-02 19:32:16 [development] info: Method:GET URL:/api/admin/products?productName=Authentic%20Mexican%20flavour%20Chikcken%20Taco 
+2023-02-02 19:32:25 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-02 19:33:00 [development] info: Method:GET URL:/api/admin/products?productName=Chiken,Tomatoes,Garlic,Oregano 
+2023-02-02 19:33:14 [development] info: Method:POST URL:/api/admin/products 
+2023-02-02 19:33:14 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 19:33:33 [development] info: Method:GET URL:/api/admin/products?productName= 
+2023-02-02 19:34:18 [development] info: Method:GET URL:/api/admin/products?productName=Tasty%20Tacos 
+2023-02-02 19:34:18 [development] info: Method:PUT URL:/api/admin/products/63dbbb9a78b1496f08b44700 
+2023-02-02 19:34:18 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 21:24:27 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 21:24:27 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-02 21:24:27 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-02 21:24:29 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 21:32:05 [development] info: Method:GET URL:/api/customer/public/products 
+2023-02-02 21:33:44 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 21:33:44 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-02 21:33:45 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-02 21:33:45 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 21:33:50 [development] info: Method:DELETE URL:/api/admin/products/63dbbb9a78b1496f08b44700 
+2023-02-02 21:33:50 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 21:34:03 [development] info: Method:GET URL:/api/admin/products?productName=Tasty%20Tacos 
+2023-02-02 21:35:02 [development] info: Method:GET URL:/api/admin/products?productName=Authentic%20Mexican%20flavor%20chicken%20tacos 
+2023-02-02 21:43:38 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-02 21:43:59 [development] info: Method:GET URL:/api/admin/products?productName=Chiken,Tomatoes,Garlic,Oregano, 
+2023-02-02 21:44:03 [development] info: Method:GET URL:/api/admin/products?productName=Chiken,Tomatoes,Garlic,Oregano 
+2023-02-02 21:44:14 [development] info: Method:POST URL:/api/admin/products 
+2023-02-02 21:44:14 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 21:44:49 [development] info: Method:DELETE URL:/api/admin/products/63dbda4e78b1496f08b44712 
+2023-02-02 21:44:49 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 21:50:04 [development] info: Method:DELETE URL:/api/admin/products/6396e58f53ecb5a11f71c709 
+2023-02-02 21:50:06 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 21:50:13 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 21:50:13 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-02 21:50:13 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-02 21:50:14 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 22:01:17 [development] info: Method:GET URL:/api/admin/products?productName=sdsdsadf 
+2023-02-02 22:01:19 [development] info: Method:GET URL:/api/admin/products?productName=dfasdfsdfd 
+2023-02-02 22:01:31 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-02 22:01:40 [development] info: Method:GET URL:/api/admin/products?productName=Chiken,Tomatoes,Garlic,Oregano 
+2023-02-02 22:02:45 [development] info: Method:POST URL:/api/admin/products 
+2023-02-02 22:02:45 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 22:02:53 [development] info: Method:DELETE URL:/api/admin/products/63dbdea578b1496f08b4471e 
+2023-02-02 22:02:53 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 22:03:49 [development] info: Method:GET URL:/api/admin/products?productName=aasdhhsdkfsfs 
+2023-02-02 22:03:52 [development] info: Method:GET URL:/api/admin/products?productName=dfsdfsdfs 
+2023-02-02 22:04:00 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-02 22:04:15 [development] info: Method:POST URL:/api/admin/products 
+2023-02-02 22:04:15 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 22:07:44 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 22:07:44 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-02 22:07:45 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-02 22:07:45 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 22:08:43 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 22:08:43 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-02 22:08:43 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-02 22:08:44 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 22:09:16 [development] info: Method:DELETE URL:/api/admin/products/63dbdeff78b1496f08b44725 
+2023-02-02 22:09:16 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 22:09:16 [development] info: Method:DELETE URL:/api/admin/deleteImage 
+2023-02-02 22:38:37 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 22:38:44 [development] info: Method:GET URL:/api/admin/products?productName=Classic%20Margherita 
+2023-02-02 22:38:46 [development] info: Method:GET URL:/api/admin/products?productName=dfasdfasf 
+2023-02-02 22:39:01 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-02 22:39:28 [development] info: Method:GET URL:/api/admin/products?productName=Chiken,Tomatoes,Garlic,Oregano 
+2023-02-02 22:39:28 [development] info: Method:POST URL:/api/admin/products 
+2023-02-02 22:39:29 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 22:40:12 [development] info: Method:DELETE URL:/api/admin/products/63dbe74078b1496f08b44732 
+2023-02-02 22:40:13 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 22:43:15 [development] info: Method:GET URL:/api/admin/products?productName=sdfsdf 
+2023-02-02 22:43:20 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-02 22:43:33 [development] info: Method:POST URL:/api/admin/products 
+2023-02-02 22:43:33 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 22:43:40 [development] info: Method:DELETE URL:/api/admin/products/63dbe83578b1496f08b44738 
+2023-02-02 22:43:40 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 22:49:21 [development] info: Method:GET URL:/api/admin/products?productName=aasdhhsdk 
+2023-02-02 22:49:24 [development] info: Method:GET URL:/api/admin/products?productName=sfsdfsd 
+2023-02-02 22:49:34 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-02 22:49:43 [development] info: Method:POST URL:/api/admin/products 
+2023-02-02 22:49:43 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 22:49:52 [development] info: Method:DELETE URL:/api/admin/products/63dbe9a778b1496f08b4473f 
+2023-02-02 22:49:52 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 22:53:59 [development] info: Method:GET URL:/api/admin/products?productName=dfsdf 
+2023-02-02 22:54:06 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-02 22:54:21 [development] info: Method:POST URL:/api/admin/products 
+2023-02-02 22:54:21 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 22:54:27 [development] info: Method:DELETE URL:/api/admin/products/63dbeabd78b1496f08b44745 
+2023-02-02 22:54:27 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 22:56:28 [development] info: Method:DELETE URL:/api/admin/products/6394d63013e5473d56a19e52 
+2023-02-02 22:56:29 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 22:58:08 [development] info: Method:GET URL:/api/admin/products?productName=Classic%20Margherita%20Pizza 
+2023-02-02 22:58:11 [development] info: Method:GET URL:/api/admin/products?productName=sdfsdfs 
+2023-02-02 22:58:12 [development] info: Method:GET URL:/api/admin/products?productName=sdfsdaf 
+2023-02-02 22:58:30 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-02 22:59:06 [development] info: Method:DELETE URL:/api/admin/deleteImage 
+2023-02-02 22:59:14 [development] info: Method:GET URL:/api/admin/products?productName= 
+2023-02-02 22:59:19 [development] info: Method:GET URL:/api/admin/products?productName=Classic%20Margherita 
+2023-02-02 22:59:22 [development] info: Method:GET URL:/api/admin/products?productName=sfsdfsdfsdf 
+2023-02-02 22:59:38 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-02 23:00:06 [development] info: Method:POST URL:/api/admin/products 
+2023-02-02 23:00:07 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 23:00:14 [development] info: Method:DELETE URL:/api/admin/products/63dbec1678b1496f08b44752 
+2023-02-02 23:00:14 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 23:02:53 [development] info: Method:GET URL:/api/admin/products?productName=sadASDs 
+2023-02-02 23:03:03 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-02 23:03:17 [development] info: Method:POST URL:/api/admin/products 
+2023-02-02 23:03:17 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 23:03:22 [development] info: Method:DELETE URL:/api/admin/products/63dbecd578b1496f08b44758 
+2023-02-02 23:03:22 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 23:13:08 [development] info: Method:GET URL:/api/admin/products?productName=sdfdsafsda 
+2023-02-02 23:13:08 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-02 23:13:09 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-02 23:13:10 [development] info: Method:GET URL:/api/admin/products?productName=sdfdsafsda 
+2023-02-02 23:13:27 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-02 23:13:27 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-02 23:13:37 [development] info: Method:POST URL:/api/admin/products 
+2023-02-02 23:13:37 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 23:13:42 [development] info: Method:DELETE URL:/api/admin/products/63dbef4178b1496f08b4475f 
+2023-02-02 23:13:42 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 23:17:20 [development] info: Method:GET URL:/api/admin/products?productName=sdfdFD 
+2023-02-02 23:17:28 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-02 23:17:40 [development] info: Method:POST URL:/api/admin/products 
+2023-02-02 23:17:41 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 23:17:45 [development] info: Method:DELETE URL:/api/admin/products/63dbf03478b1496f08b44765 
+2023-02-02 23:17:45 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 23:18:53 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 23:18:53 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-02 23:18:54 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-02 23:18:54 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 23:18:59 [development] info: Method:GET URL:/api/admin/products?productName=Classic%20Margherita 
+2023-02-02 23:19:01 [development] info: Method:GET URL:/api/admin/products?productName=DGFSADFASDF 
+2023-02-02 23:19:07 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-02 23:19:17 [development] info: Method:GET URL:/api/admin/products?productName=Chiken,Tomatoes,Garlic,Oregano 
+2023-02-02 23:19:18 [development] info: Method:POST URL:/api/admin/products 
+2023-02-02 23:19:18 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 23:19:24 [development] info: Method:DELETE URL:/api/admin/products/63dbf096c878997f920ca8c1 
+2023-02-02 23:19:25 [development] info: Method:GET URL:/api/admin/products 
+2023-02-02 23:19:25 [development] info: Method:DELETE URL:/api/admin/deleteImage 
+2023-02-02 23:44:38 [development] info: Method:GET URL:/api/admin/products?productName= 
+2023-02-02 23:52:10 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-02 23:52:22 [development] info: Method:DELETE URL:/api/admin/deleteImage 
+2023-02-02 23:52:51 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-02 23:53:17 [development] info: Method:DELETE URL:/api/admin/deleteImage 

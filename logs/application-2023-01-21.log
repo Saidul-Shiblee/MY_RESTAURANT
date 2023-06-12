@@ -1,0 +1,74 @@
+2023-01-21 21:14:47 [development] info: Method:GET URL:/api/customer/public/products 
+2023-01-21 21:15:24 [development] info: Method:GET URL:/api/admin/orders 
+2023-01-21 21:15:24 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-01-21 21:15:24 [development] info: Method:GET URL:/api/auth/refresh 
+2023-01-21 21:15:25 [development] error: UnauthorizedError: Request with no or wrong refresh token
+    at Object.refresh [as get] (webpack-internal:///(api)/./pages/api/auth/refresh.js:27:65)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api/api-handler.js:36:13)
+    at async Object.apiResolver (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\api-utils\node.js:367:9)
+    at async DevServer.runApi (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:474:9)
+    at async Object.fn (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:736:37)
+    at async Router.execute (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\router.js:252:36)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\base-server.js:381:29)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\dev\next-dev-server.js:724:20)
+2023-01-21 21:15:31 [development] info: Method:POST URL:/api/auth/login 
+2023-01-21 21:15:32 [development] info: Method:GET URL:/api/admin/orders 
+2023-01-21 21:15:39 [development] info: Method:GET URL:/api/user 
+2023-01-21 21:15:39 [development] info: Method:GET URL:/api/user 
+2023-01-21 21:15:39 [development] info: Method:GET URL:/api/user 
+2023-01-21 21:15:44 [development] info: Method:GET URL:/api/admin/orders 
+2023-01-21 21:15:44 [development] info: Method:GET URL:/api/admin/orders 
+2023-01-21 21:15:50 [development] info: Method:GET URL:/api/admin/products 
+2023-01-21 21:51:14 [development] info: Method:PUT URL:/api/admin/products/6378e55f897c3227275b6d2e 
+2023-01-21 21:51:14 [development] error: ValidationError: 5 errors occurred
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:63:20)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:17:5
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:67:9)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\createValidation.js:72:127
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-01-21 21:51:14 [development] info: Method:GET URL:/api/admin/products 
+2023-01-21 21:51:24 [development] info: Method:GET URL:/api/admin/products 
+2023-01-21 21:51:32 [development] info: Method:GET URL:/api/customer/public/products 
+2023-01-21 21:51:32 [development] info: Method:GET URL:/api/admin/orders 
+2023-01-21 21:51:33 [development] info: Method:GET URL:/api/admin/orders 
+2023-01-21 21:51:37 [development] info: Method:PUT URL:/api/admin/orders/63972bae53ecb5a11f71c8a5 
+2023-01-21 21:51:42 [development] info: Method:PUT URL:/api/admin/orders/638b5baf5ea28fcf92a5837e 
+2023-01-21 21:51:46 [development] info: Method:GET URL:/api/admin/orders 
+2023-01-21 21:51:46 [development] info: Method:GET URL:/api/admin/orders 
+2023-01-21 21:52:08 [development] info: Method:GET URL:/api/user 
+2023-01-21 21:52:08 [development] info: Method:GET URL:/api/user 
+2023-01-21 21:52:08 [development] info: Method:GET URL:/api/user 
+2023-01-21 21:52:21 [development] info: Method:PUT URL:/api/user/639892dd35636036df6bc1b4 
+2023-01-21 21:52:27 [development] info: Method:GET URL:/api/user 
+2023-01-21 21:52:27 [development] info: Method:GET URL:/api/user 
+2023-01-21 21:52:27 [development] info: Method:GET URL:/api/user 
+2023-01-21 21:52:36 [development] info: Method:PUT URL:/api/user/639892dd35636036df6bc1b4 
+2023-01-21 21:52:40 [development] info: Method:GET URL:/api/admin/orders 
+2023-01-21 21:52:40 [development] info: Method:GET URL:/api/admin/orders 
+2023-01-21 21:52:43 [development] info: Method:GET URL:/api/admin/products 
+2023-01-21 21:54:49 [development] info: Method:PUT URL:/api/admin/products/6396e58f53ecb5a11f71c709 
+2023-01-21 21:54:49 [development] error: ValidationError: 5 errors occurred
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:63:20)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:17:5
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:67:9)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\createValidation.js:72:127
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-01-21 21:54:49 [development] info: Method:GET URL:/api/admin/products 
+2023-01-21 21:54:58 [development] info: Method:DELETE URL:/api/admin/products/63b9112bd37ef94cf0c84c53 
+2023-01-21 21:55:02 [development] info: Method:GET URL:/api/admin/products 
+2023-01-21 21:56:20 [development] info: Method:POST URL:/api/admin/signature 
+2023-01-21 21:56:42 [development] info: Method:POST URL:/api/admin/products 
+2023-01-21 21:56:42 [development] info: Method:GET URL:/api/admin/products 
+2023-01-21 22:59:31 [development] info: Method:GET URL:/api/customer/public/products 
+2023-01-21 22:59:32 [development] info: Method:GET URL:/api/customer/public/products 

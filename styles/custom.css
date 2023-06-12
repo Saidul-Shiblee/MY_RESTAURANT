@@ -1,0 +1,26 @@
+#nprogress .bar {
+    background: #e6e2d8 !important;
+    height: 3px !important;
+}
+
+#nprogress .peg {
+    box-shadow: 0 0 10px #e6e2d8, 0 0 5px #e6e2d8;
+}
+
+#nprogress .spinner-icon {
+    border-top-color: #e6e2d8;
+    border-left-color: #e6e2d8;
+}
+
+
+
+
+.main-div {
+background: linear-gradient(to right, #c9d6ff, #e2e2e2);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: fixed;
+height: 100vh;
+width: 100vw;
+}

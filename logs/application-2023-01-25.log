@@ -1,0 +1,33 @@
+2023-01-25 02:27:58 [development] info: Method:GET URL:/api/admin/products 
+2023-01-25 02:27:58 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-01-25 02:27:58 [development] info: Method:GET URL:/api/auth/refresh 
+2023-01-25 02:27:58 [development] info: Method:GET URL:/api/admin/products 
+2023-01-25 02:29:33 [development] info: Method:GET URL:/api/admin/products 
+2023-01-25 02:29:33 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-01-25 02:29:33 [development] info: Method:GET URL:/api/auth/refresh 
+2023-01-25 02:29:33 [development] info: Method:GET URL:/api/admin/products 
+2023-01-25 02:36:24 [development] info: Method:GET URL:/api/admin/products 
+2023-01-25 02:36:24 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-01-25 02:36:24 [development] info: Method:GET URL:/api/auth/refresh 
+2023-01-25 02:36:24 [development] info: Method:GET URL:/api/admin/products 

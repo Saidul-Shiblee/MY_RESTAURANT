@@ -1,0 +1,281 @@
+2023-02-03 00:24:10 [development] info: Method:GET URL:/api/user 
+2023-02-03 00:24:10 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-03 00:24:10 [development] info: Method:GET URL:/api/user 
+2023-02-03 00:24:10 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-03 00:24:10 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-03 00:24:11 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-03 00:24:11 [development] info: Method:GET URL:/api/user 
+2023-02-03 00:24:11 [development] info: Method:GET URL:/api/user 
+2023-02-03 00:24:12 [development] info: Method:GET URL:/api/user 
+2023-02-03 09:39:14 [development] info: Method:GET URL:/api/admin/orders 
+2023-02-03 09:39:14 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-03 09:39:14 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-03 09:39:15 [development] info: Method:GET URL:/api/admin/orders 
+2023-02-03 10:01:42 [development] info: Method:GET URL:/api/admin/orders 
+2023-02-03 10:01:42 [development] info: Method:GET URL:/api/admin/orders 
+2023-02-03 10:01:48 [development] info: Method:GET URL:/api/admin/products 
+2023-02-03 10:01:51 [development] info: Method:GET URL:/api/admin/orders 
+2023-02-03 10:42:14 [development] info: Method:GET URL:/api/user 
+2023-02-03 10:42:14 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-03 10:42:14 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-03 10:42:44 [development] error: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at Function.Model.$wrapCallback (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\model.js:5226:32)
+    at D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:4908:21
+    at D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+    at model.Query.exec (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:4907:10)
+    at findUser (webpack-internal:///(api)/./services/db/userServices.js:18:99)
+    at Object.refresh [as get] (webpack-internal:///(api)/./pages/api/auth/refresh.js:21:91)
+    at eval (webpack-internal:///(api)/./utils/api/api-handler.js:36:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-03 10:43:38 [development] info: Method:POST URL:/api/auth/login 
+2023-02-03 10:43:43 [development] info: Method:POST URL:/api/auth/login 
+2023-02-03 10:44:08 [development] error: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at Function.Model.$wrapCallback (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\model.js:5226:32)
+    at D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:4908:21
+    at D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+    at model.Query.exec (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:4907:10)
+    at findUser (webpack-internal:///(api)/./services/db/userServices.js:18:99)
+    at Object.login [as post] (webpack-internal:///(api)/./pages/api/auth/login.js:22:91)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api/api-handler.js:36:13)
+2023-02-03 10:44:13 [development] error: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at Function.Model.$wrapCallback (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\model.js:5226:32)
+    at D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:4908:21
+    at D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+    at model.Query.exec (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:4907:10)
+    at findUser (webpack-internal:///(api)/./services/db/userServices.js:18:99)
+    at Object.login [as post] (webpack-internal:///(api)/./pages/api/auth/login.js:22:91)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api/api-handler.js:36:13)
+2023-02-03 10:44:13 [development] info: Method:POST URL:/api/auth/login 
+2023-02-03 10:44:43 [development] error: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at Function.Model.$wrapCallback (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\model.js:5226:32)
+    at D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:4908:21
+    at D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+    at model.Query.exec (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:4907:10)
+    at findUser (webpack-internal:///(api)/./services/db/userServices.js:18:99)
+    at Object.login [as post] (webpack-internal:///(api)/./pages/api/auth/login.js:22:91)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-03 10:52:26 [development] info: Method:POST URL:/api/auth/login 
+2023-02-03 10:52:26 [development] error: ValidationError: email must be a valid email
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:63:20)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:17:5
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:63:11)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\createValidation.js:72:127
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-03 10:52:32 [development] info: Method:POST URL:/api/auth/login 
+2023-02-03 10:52:33 [development] info: Method:GET URL:/api/user 
+2023-02-03 10:54:14 [development] info: Method:GET URL:/api/user 
+2023-02-03 10:54:50 [development] info: Method:GET URL:/api/user 
+2023-02-03 10:55:49 [development] info: Method:GET URL:/api/user 
+2023-02-03 10:57:39 [development] info: Method:GET URL:/api/user 
+2023-02-03 11:13:07 [development] info: Method:GET URL:/api/user 
+2023-02-03 11:28:49 [development] info: Method:GET URL:/api/user 
+2023-02-03 11:31:57 [development] info: Method:GET URL:/api/user 
+2023-02-03 11:33:04 [development] info: Method:GET URL:/api/user 
+2023-02-03 11:45:29 [development] info: Method:GET URL:/api/admin/products?productName=[object%20Object] 
+2023-02-03 11:47:55 [development] info: Method:GET URL:/api/user 
+2023-02-03 11:51:28 [development] info: Method:GET URL:/api/user 
+2023-02-03 11:51:39 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-03 11:51:39 [development] error: BadRequestError: name already exists
+    at Object.getUser [as post] (webpack-internal:///(api)/./pages/api/user/check_user.js:24:65)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api/api-handler.js:36:13)
+    at async Object.apiResolver (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\api-utils\node.js:367:9)
+    at async DevServer.runApi (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:474:9)
+    at async Object.fn (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:736:37)
+    at async Router.execute (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\router.js:252:36)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\base-server.js:381:29)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\dev\next-dev-server.js:724:20)
+    at async DevServer.handleRequest (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\base-server.js:319:20)
+2023-02-03 11:51:57 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-03 11:51:57 [development] error: BadRequestError: name already exists
+    at Object.getUser [as post] (webpack-internal:///(api)/./pages/api/user/check_user.js:24:65)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api/api-handler.js:36:13)
+    at async Object.apiResolver (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\api-utils\node.js:367:9)
+    at async DevServer.runApi (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:474:9)
+    at async Object.fn (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:736:37)
+    at async Router.execute (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\router.js:252:36)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\base-server.js:381:29)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\dev\next-dev-server.js:724:20)
+    at async DevServer.handleRequest (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\base-server.js:319:20)
+2023-02-03 11:52:08 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-03 11:52:08 [development] error: BadRequestError: name already exists
+    at Object.getUser [as post] (webpack-internal:///(api)/./pages/api/user/check_user.js:24:65)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api/api-handler.js:36:13)
+    at async Object.apiResolver (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\api-utils\node.js:367:9)
+    at async DevServer.runApi (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:474:9)
+    at async Object.fn (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:736:37)
+    at async Router.execute (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\router.js:252:36)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\base-server.js:381:29)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\dev\next-dev-server.js:724:20)
+    at async DevServer.handleRequest (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\base-server.js:319:20)
+2023-02-03 11:58:14 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-03 11:58:14 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-03 11:58:14 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-03 11:58:15 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-03 11:58:29 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-03 11:58:29 [development] error: BadRequestError: email already exists
+    at Object.getUser [as post] (webpack-internal:///(api)/./pages/api/user/check_user.js:24:65)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api/api-handler.js:36:13)
+    at async Object.apiResolver (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\api-utils\node.js:367:9)
+    at async DevServer.runApi (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:474:9)
+    at async Object.fn (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:736:37)
+    at async Router.execute (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\router.js:252:36)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\base-server.js:381:29)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\dev\next-dev-server.js:724:20)
+    at async DevServer.handleRequest (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\base-server.js:319:20)
+2023-02-03 11:58:39 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-03 11:59:05 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-03 11:59:39 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-03 11:59:51 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-03 12:00:24 [development] info: Method:GET URL:/api/user 
+2023-02-03 12:00:24 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-03 12:00:25 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-03 12:00:25 [development] info: Method:GET URL:/api/user 
+2023-02-03 12:00:37 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-03 12:00:45 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-03 12:01:03 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-03 12:01:06 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-03 12:01:07 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-03 12:01:07 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-03 12:01:07 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-03 12:01:08 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-03 12:01:08 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-03 12:01:19 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-03 12:01:20 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-03 12:01:20 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-03 12:01:20 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-03 12:01:20 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-03 12:01:21 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-03 12:01:21 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-03 12:01:21 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-03 12:01:21 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-03 12:01:21 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-03 12:01:21 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-03 12:01:22 [development] info: Method:POST URL:/api/admin/signature 
+2023-02-03 12:01:24 [development] info: Method:POST URL:/api/user 
+2023-02-03 12:01:24 [development] info: Method:GET URL:/api/user 
+2023-02-03 12:01:29 [development] info: Method:POST URL:/api/user 
+2023-02-03 12:01:31 [development] error: BadRequestError: User with same email already exisits
+    at Object.registerUser [as post] (webpack-internal:///(api)/./pages/api/user/index.js:39:65)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api/api-handler.js:36:13)
+    at async Object.apiResolver (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\api-utils\node.js:367:9)
+    at async DevServer.runApi (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:474:9)
+    at async Object.fn (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:736:37)
+    at async Router.execute (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\router.js:252:36)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\base-server.js:381:29)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\dev\next-dev-server.js:724:20)
+2023-02-03 12:01:31 [development] info: Method:GET URL:/api/user 
+2023-02-03 12:01:36 [development] info: Method:POST URL:/api/user 
+2023-02-03 12:01:36 [development] error: BadRequestError: User with same email already exisits
+    at Object.registerUser [as post] (webpack-internal:///(api)/./pages/api/user/index.js:39:65)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api/api-handler.js:36:13)
+    at async Object.apiResolver (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\api-utils\node.js:367:9)
+    at async DevServer.runApi (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:474:9)
+    at async Object.fn (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:736:37)
+    at async Router.execute (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\router.js:252:36)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\base-server.js:381:29)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\dev\next-dev-server.js:724:20)
+2023-02-03 12:01:36 [development] info: Method:GET URL:/api/user 
+2023-02-03 12:01:39 [development] info: Method:POST URL:/api/user 
+2023-02-03 12:01:39 [development] error: BadRequestError: User with same email already exisits
+    at Object.registerUser [as post] (webpack-internal:///(api)/./pages/api/user/index.js:39:65)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api/api-handler.js:36:13)
+    at async Object.apiResolver (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\api-utils\node.js:367:9)
+    at async DevServer.runApi (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:474:9)
+    at async Object.fn (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:736:37)
+    at async Router.execute (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\router.js:252:36)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\base-server.js:381:29)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\dev\next-dev-server.js:724:20)
+2023-02-03 12:01:39 [development] info: Method:GET URL:/api/user 
+2023-02-03 12:01:41 [development] info: Method:GET URL:/api/user 
+2023-02-03 12:01:41 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-03 12:01:41 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-03 12:01:42 [development] info: Method:GET URL:/api/user 
+2023-02-03 12:14:34 [development] info: Method:PUT URL:/api/user/undefined 
+2023-02-03 12:14:34 [development] error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Users"
+    at model.Query.exec (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:4891:21)
+    at model.Query.Query.then (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:4990:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-03 12:14:34 [development] info: Method:GET URL:/api/user 
+2023-02-03 12:14:38 [development] info: Method:GET URL:/api/user 
+2023-02-03 12:14:38 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-03 12:14:39 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-03 12:14:39 [development] info: Method:GET URL:/api/user 
+2023-02-03 12:18:16 [development] info: Method:PUT URL:/api/user/63dca334a9c3abcf39c3c154 
+2023-02-03 12:18:16 [development] info: Method:GET URL:/api/user 

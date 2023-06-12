@@ -1,0 +1,663 @@
+2023-02-04 01:14:53 [development] info: Method:GET URL:/api/user 
+2023-02-04 01:14:53 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-04 01:14:53 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-04 01:14:54 [development] info: Method:GET URL:/api/user 
+2023-02-04 01:14:58 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-04 01:14:58 [development] error: BadRequestError: name already exists
+    at Object.getUser [as post] (webpack-internal:///(api)/./pages/api/user/check_user.js:24:65)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api/api-handler.js:36:13)
+    at async Object.apiResolver (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\api-utils\node.js:367:9)
+    at async DevServer.runApi (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:474:9)
+    at async Object.fn (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:736:37)
+    at async Router.execute (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\router.js:252:36)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\base-server.js:381:29)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\dev\next-dev-server.js:724:20)
+2023-02-04 01:14:59 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-04 01:14:59 [development] error: BadRequestError: name already exists
+    at Object.getUser [as post] (webpack-internal:///(api)/./pages/api/user/check_user.js:24:65)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api/api-handler.js:36:13)
+    at async Object.apiResolver (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\api-utils\node.js:367:9)
+    at async DevServer.runApi (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:474:9)
+    at async Object.fn (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:736:37)
+    at async Router.execute (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\router.js:252:36)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\base-server.js:381:29)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\dev\next-dev-server.js:724:20)
+2023-02-04 01:23:03 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-04 01:23:03 [development] error: BadRequestError: name already exists
+    at Object.getUser [as post] (webpack-internal:///(api)/./pages/api/user/check_user.js:24:65)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api/api-handler.js:36:13)
+    at async Object.apiResolver (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\api-utils\node.js:367:9)
+    at async DevServer.runApi (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:474:9)
+    at async Object.fn (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:736:37)
+    at async Router.execute (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\router.js:252:36)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\base-server.js:381:29)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\dev\next-dev-server.js:724:20)
+    at async DevServer.handleRequest (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\base-server.js:319:20)
+2023-02-04 01:24:43 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-04 01:24:43 [development] error: BadRequestError: name already exists
+    at Object.getUser [as post] (webpack-internal:///(api)/./pages/api/user/check_user.js:24:65)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api/api-handler.js:36:13)
+    at async Object.apiResolver (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\api-utils\node.js:367:9)
+    at async DevServer.runApi (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:474:9)
+    at async Object.fn (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:736:37)
+    at async Router.execute (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\router.js:252:36)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\base-server.js:381:29)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\dev\next-dev-server.js:724:20)
+2023-02-04 01:24:45 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-04 01:24:45 [development] error: BadRequestError: name already exists
+    at Object.getUser [as post] (webpack-internal:///(api)/./pages/api/user/check_user.js:24:65)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api/api-handler.js:36:13)
+    at async Object.apiResolver (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\api-utils\node.js:367:9)
+    at async DevServer.runApi (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:474:9)
+    at async Object.fn (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:736:37)
+    at async Router.execute (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\router.js:252:36)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\base-server.js:381:29)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\dev\next-dev-server.js:724:20)
+2023-02-04 01:24:49 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-04 01:24:49 [development] error: BadRequestError: name already exists
+    at Object.getUser [as post] (webpack-internal:///(api)/./pages/api/user/check_user.js:24:65)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api/api-handler.js:36:13)
+    at async Object.apiResolver (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\api-utils\node.js:367:9)
+    at async DevServer.runApi (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:474:9)
+    at async Object.fn (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:736:37)
+    at async Router.execute (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\router.js:252:36)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\base-server.js:381:29)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\dev\next-dev-server.js:724:20)
+2023-02-04 01:26:22 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-04 01:26:22 [development] error: BadRequestError: name already exists
+    at Object.getUser [as post] (webpack-internal:///(api)/./pages/api/user/check_user.js:24:65)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api/api-handler.js:36:13)
+    at async Object.apiResolver (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\api-utils\node.js:367:9)
+    at async DevServer.runApi (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:474:9)
+    at async Object.fn (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:736:37)
+    at async Router.execute (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\router.js:252:36)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\base-server.js:381:29)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\dev\next-dev-server.js:724:20)
+    at async DevServer.handleRequest (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\base-server.js:319:20)
+2023-02-04 01:27:03 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-04 01:27:03 [development] error: BadRequestError: name already exists
+    at Object.getUser [as post] (webpack-internal:///(api)/./pages/api/user/check_user.js:24:65)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api/api-handler.js:36:13)
+    at async Object.apiResolver (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\api-utils\node.js:367:9)
+    at async DevServer.runApi (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:474:9)
+    at async Object.fn (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:736:37)
+    at async Router.execute (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\router.js:252:36)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\base-server.js:381:29)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\dev\next-dev-server.js:724:20)
+    at async DevServer.handleRequest (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\base-server.js:319:20)
+2023-02-04 01:27:18 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-04 01:27:18 [development] error: BadRequestError: name already exists
+    at Object.getUser [as post] (webpack-internal:///(api)/./pages/api/user/check_user.js:24:65)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api/api-handler.js:36:13)
+    at async Object.apiResolver (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\api-utils\node.js:367:9)
+    at async DevServer.runApi (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:474:9)
+    at async Object.fn (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:736:37)
+    at async Router.execute (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\router.js:252:36)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\base-server.js:381:29)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\dev\next-dev-server.js:724:20)
+    at async DevServer.handleRequest (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\base-server.js:319:20)
+2023-02-04 01:31:25 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-04 01:31:43 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-04 01:32:31 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-04 01:34:10 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-04 01:34:20 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-04 01:35:07 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-04 01:35:09 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-04 01:35:20 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-04 01:35:23 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-04 02:06:18 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-04 02:06:42 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-04 02:06:46 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-04 02:06:52 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-04 02:06:55 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-04 02:24:01 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-04 02:24:01 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-04 02:24:01 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-04 02:24:01 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-04 02:24:04 [development] info: Method:POST URL:/api/user/check_user 
+2023-02-04 02:25:40 [development] info: Method:GET URL:/api/admin/orders 
+2023-02-04 02:25:42 [development] info: Method:GET URL:/api/admin/products 
+2023-02-04 02:25:43 [development] info: Method:GET URL:/api/admin/orders 
+2023-02-04 02:25:43 [development] info: Method:GET URL:/api/admin/orders 
+2023-02-04 02:25:49 [development] info: Method:GET URL:/api/admin/orders 
+2023-02-04 02:25:49 [development] info: Method:GET URL:/api/admin/orders 
+2023-02-04 02:25:53 [development] info: Method:GET URL:/api/admin/orders 
+2023-02-04 11:58:43 [development] info: Method:GET URL:/api/user 
+2023-02-04 11:58:43 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-04 11:58:43 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-04 11:58:44 [development] error: UnauthorizedError: Request with no or wrong refresh token
+    at Object.refresh [as get] (webpack-internal:///(api)/./pages/api/auth/refresh.js:27:65)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api/api-handler.js:36:13)
+    at async Object.apiResolver (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\api-utils\node.js:367:9)
+    at async DevServer.runApi (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:474:9)
+    at async Object.fn (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:736:37)
+    at async Router.execute (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\router.js:252:36)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\base-server.js:381:29)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\dev\next-dev-server.js:724:20)
+    at async DevServer.handleRequest (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\base-server.js:319:20)
+2023-02-04 11:58:50 [development] info: Method:POST URL:/api/auth/login 
+2023-02-04 11:58:51 [development] info: Method:GET URL:/api/user 
+2023-02-04 11:58:58 [development] info: Method:PUT URL:/api/user/63dca334a9c3abcf39c3c154 
+2023-02-04 11:59:03 [development] info: Method:PUT URL:/api/user/63dca334a9c3abcf39c3c154 
+2023-02-04 12:17:34 [development] info: Method:GET URL:/api/user 
+2023-02-04 12:17:52 [development] info: Method:PUT URL:/api/user/undefined 
+2023-02-04 12:17:52 [development] error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Users"
+    at model.Query.exec (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:4891:21)
+    at model.Query.Query.then (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:4990:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-04 12:17:52 [development] info: Method:GET URL:/api/user 
+2023-02-04 12:17:56 [development] info: Method:PUT URL:/api/user/undefined 
+2023-02-04 12:17:56 [development] error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Users"
+    at model.Query.exec (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:4891:21)
+    at model.Query.Query.then (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:4990:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-04 12:17:56 [development] info: Method:GET URL:/api/user 
+2023-02-04 12:17:59 [development] info: Method:PUT URL:/api/user/undefined 
+2023-02-04 12:17:59 [development] error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Users"
+    at model.Query.exec (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:4891:21)
+    at model.Query.Query.then (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:4990:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-04 12:17:59 [development] info: Method:GET URL:/api/user 
+2023-02-04 12:18:26 [development] info: Method:PUT URL:/api/user/undefined 
+2023-02-04 12:18:26 [development] error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Users"
+    at model.Query.exec (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:4891:21)
+    at model.Query.Query.then (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:4990:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-04 12:18:27 [development] info: Method:GET URL:/api/user 
+2023-02-04 12:20:32 [development] info: Method:PUT URL:/api/user/639892dd35636036df6bc1b4 
+2023-02-04 12:20:32 [development] info: Method:GET URL:/api/user 
+2023-02-04 12:20:35 [development] info: Method:PUT URL:/api/user/639892dd35636036df6bc1b4 
+2023-02-04 12:20:35 [development] info: Method:GET URL:/api/user 
+2023-02-04 12:20:37 [development] info: Method:PUT URL:/api/user/639892dd35636036df6bc1b4 
+2023-02-04 12:20:37 [development] info: Method:GET URL:/api/user 
+2023-02-04 12:20:39 [development] info: Method:PUT URL:/api/user/639892dd35636036df6bc1b4 
+2023-02-04 12:20:39 [development] info: Method:GET URL:/api/user 
+2023-02-04 12:21:10 [development] info: Method:PUT URL:/api/user/63a355d4e88c521616060bd4 
+2023-02-04 12:21:10 [development] info: Method:GET URL:/api/user 
+2023-02-04 12:21:12 [development] info: Method:PUT URL:/api/user/63a355d4e88c521616060bd4 
+2023-02-04 12:21:12 [development] info: Method:GET URL:/api/user 
+2023-02-04 12:24:45 [development] info: Method:GET URL:/api/user 
+2023-02-04 12:25:25 [development] info: Method:GET URL:/api/user 
+2023-02-04 12:25:33 [development] info: Method:DELETE URL:/api/user/63dca334a9c3abcf39c3c154 
+2023-02-04 12:25:33 [development] info: Method:GET URL:/api/user 
+2023-02-04 12:25:33 [development] info: Method:DELETE URL:/api/admin/deleteImage 
+2023-02-04 12:33:05 [development] info: Method:GET URL:/api/user 
+2023-02-04 12:33:09 [development] info: Method:GET URL:/api/user 
+2023-02-04 12:34:25 [development] info: Method:GET URL:/api/user 
+2023-02-04 12:39:40 [development] info: Method:GET URL:/api/admin/products 
+2023-02-04 12:39:43 [development] info: Method:GET URL:/api/admin/orders 
+2023-02-04 12:39:48 [development] info: Method:GET URL:/api/admin/orders 
+2023-02-04 12:39:48 [development] info: Method:GET URL:/api/admin/orders 
+2023-02-04 12:39:55 [development] info: Method:GET URL:/api/admin/orders 
+2023-02-04 17:35:02 [development] info: Method:GET URL:/api/admin/orders 
+2023-02-04 17:35:02 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-04 17:35:02 [development] info: Method:GET URL:/api/admin/orders 
+2023-02-04 17:35:02 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-04 17:35:03 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-04 17:35:03 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-04 17:35:03 [development] info: Method:GET URL:/api/admin/orders 
+2023-02-04 17:35:03 [development] info: Method:GET URL:/api/admin/orders 
+2023-02-04 18:25:34 [development] info: Method:GET URL:/api/admin/orders 
+2023-02-04 18:25:35 [development] info: Method:GET URL:/api/admin/orders 
+2023-02-04 18:25:35 [development] info: Method:GET URL:/api/admin/orders 
+2023-02-04 18:25:57 [development] info: Method:GET URL:/api/admin/products 
+2023-02-04 18:25:57 [development] info: Method:GET URL:/api/admin/orders 
+2023-02-04 18:25:58 [development] info: Method:GET URL:/api/admin/orders 
+2023-02-04 18:29:29 [development] info: Method:GET URL:/api/admin/orders 
+2023-02-04 19:17:27 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 19:17:27 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-04 19:17:27 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-04 19:17:28 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 19:17:28 [development] error: CastError: Cast to number failed for value "3" (type number) at path "status" for model "Orders"
+    at model.Query.exec (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:4891:21)
+    at model.Query.Query.then (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:4990:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-04 19:19:35 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 19:19:35 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-04 19:19:35 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-04 19:19:35 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 19:19:35 [development] error: CastError: Cast to number failed for value "3" (type number) at path "status" for model "Orders"
+    at model.Query.exec (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:4891:21)
+    at model.Query.Query.then (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:4990:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-04 19:20:13 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 19:20:13 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-04 19:20:14 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-04 19:20:14 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 19:20:14 [development] error: CastError: Cast to number failed for value "3" (type number) at path "status" for model "Orders"
+    at model.Query.exec (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:4891:21)
+    at model.Query.Query.then (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:4990:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-04 19:23:02 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 19:23:02 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-04 19:23:02 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-04 19:23:03 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 19:23:03 [development] error: Error: Can't use $le with String.
+    at SchemaString.castForQuery (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\schema\string.js:678:13)
+    at SchemaString.SchemaType.castForQueryWrapper (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\schematype.js:1602:22)
+    at cast (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\cast.js:321:39)
+    at model.Query.Query.cast (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:5319:12)
+    at model.Query.Query._castConditions (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:2198:10)
+    at model.Query.<anonymous> (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:2225:8)
+    at model.Query._wrappedThunk [as _find] (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\helpers\query\wrapThunk.js:29:8)
+    at D:\Project_Practice\Foody\foody\node_modules\kareem\index.js:426:25
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-02-04 19:23:55 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 19:23:55 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-04 19:23:55 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-04 19:23:55 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 19:23:56 [development] error: CastError: Cast to number failed for value "3" (type number) at path "status" for model "Orders"
+    at model.Query.exec (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:4891:21)
+    at model.Query.Query.then (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:4990:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-04 19:25:11 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 19:25:11 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-04 19:25:11 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-04 19:25:11 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 19:25:11 [development] error: CastError: Cast to number failed for value "3" (type number) at path "status" for model "Orders"
+    at model.Query.exec (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:4891:21)
+    at model.Query.Query.then (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:4990:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-04 19:26:00 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 19:26:00 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-04 19:26:00 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-04 19:26:00 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 19:26:01 [development] error: CastError: Cast to number failed for value "3" (type number) at path "status" for model "Orders"
+    at model.Query.exec (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:4891:21)
+    at model.Query.Query.then (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:4990:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-04 19:33:17 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 19:33:17 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-04 19:33:17 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-04 19:33:17 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 19:33:17 [development] error: Error: Can't use $e with String.
+    at SchemaString.castForQuery (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\schema\string.js:678:13)
+    at SchemaString.SchemaType.castForQueryWrapper (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\schematype.js:1602:22)
+    at cast (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\cast.js:321:39)
+    at model.Query.Query.cast (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:5319:12)
+    at model.Query.Query._castConditions (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:2198:10)
+    at model.Query.<anonymous> (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\query.js:2225:8)
+    at model.Query._wrappedThunk [as _find] (D:\Project_Practice\Foody\foody\node_modules\mongoose\lib\helpers\query\wrapThunk.js:29:8)
+    at D:\Project_Practice\Foody\foody\node_modules\kareem\index.js:426:25
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-02-04 19:34:33 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 19:34:33 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-04 19:34:33 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-04 19:34:34 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 19:50:45 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 19:50:45 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-04 19:50:45 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-04 19:50:45 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:49:22 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:49:22 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-04 21:49:22 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-04 21:49:24 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:49:31 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:49:37 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:49:44 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:49:50 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:49:56 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:50:03 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:50:09 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:50:15 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:50:21 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:50:27 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:50:33 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:50:39 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:50:45 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:50:51 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:50:57 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:51:03 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:51:09 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:51:15 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:51:21 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:51:28 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:51:34 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:51:40 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:51:46 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:51:53 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:51:59 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:52:06 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:52:12 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:52:18 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:52:24 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:52:31 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:52:38 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:52:44 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:52:50 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:52:56 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:53:02 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:53:08 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:53:14 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:53:20 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:53:26 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:53:32 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:53:38 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:53:44 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:53:50 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:53:57 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:54:03 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:54:09 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:54:15 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:54:21 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:54:27 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:54:33 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:54:38 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:54:44 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:54:50 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:54:55 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:55:02 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:55:08 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:55:14 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:55:20 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:55:28 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:55:33 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:55:40 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:55:46 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:55:52 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:55:57 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:56:03 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:56:09 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:56:15 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:56:21 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:56:26 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:56:34 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:56:40 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:56:46 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:56:52 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:56:57 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:57:03 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:57:09 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:57:16 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:57:22 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:57:28 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:57:34 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:57:40 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:57:47 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:57:54 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:58:01 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:58:08 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:58:14 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:58:20 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:58:26 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:58:33 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:58:39 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:58:45 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:58:51 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:58:58 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:59:04 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:59:10 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:59:17 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:59:24 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:59:30 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:59:37 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:59:44 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:59:51 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 21:59:57 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:00:04 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:00:10 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:00:17 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:00:25 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:00:32 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:00:38 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:00:44 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:00:51 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:00:57 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:01:04 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:01:11 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:01:17 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:01:24 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:01:31 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:01:37 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:01:45 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:01:52 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:01:58 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:02:05 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:02:11 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:02:17 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:02:23 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:02:30 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:02:36 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:02:42 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:02:49 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:02:55 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:03:01 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:03:08 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:03:14 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:03:21 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:03:27 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:03:33 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:03:40 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:03:46 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:03:53 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:03:59 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:04:05 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:04:10 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:04:17 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:04:24 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:04:30 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:04:36 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:04:43 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:04:51 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:04:57 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:05:02 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:05:11 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:05:17 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:05:23 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:05:29 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:05:35 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:05:41 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:05:47 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:05:53 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:05:59 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:06:05 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:06:10 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:06:16 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:06:22 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:06:28 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:06:34 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:06:40 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:06:50 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:06:56 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:07:01 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:07:09 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:07:15 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:07:25 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:07:31 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:07:37 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:07:42 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:07:48 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:07:54 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:08:00 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:08:05 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:08:12 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:08:18 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:08:24 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:08:30 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:08:37 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:08:44 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:08:51 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:08:58 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:09:04 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:09:10 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:09:18 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:09:24 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:09:30 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:09:36 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:09:43 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:09:49 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:09:55 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:10:01 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:10:07 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:10:13 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:10:19 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:10:25 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:10:31 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:10:37 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:10:43 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:10:49 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:10:55 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:11:01 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:11:08 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:11:15 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:21:39 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:21:39 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-04 22:21:39 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-04 22:21:39 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:37:59 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 22:37:59 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-04 22:37:59 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-04 22:37:59 [development] info: Method:GET URL:/api/admin/dashboard 
+2023-02-04 23:58:46 [development] info: Method:GET URL:/api/admin/notification 
+2023-02-04 23:58:46 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-04 23:58:46 [development] info: Method:GET URL:/api/auth/refresh 
+2023-02-04 23:58:47 [development] info: Method:GET URL:/api/admin/notification 

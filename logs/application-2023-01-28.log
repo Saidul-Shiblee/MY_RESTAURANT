@@ -1,0 +1,44 @@
+2023-01-28 00:32:10 [development] info: Method:GET URL:/api/admin/products?productName=null 
+2023-01-28 00:32:10 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-01-28 00:32:10 [development] info: Method:GET URL:/api/auth/refresh 
+2023-01-28 00:32:10 [development] error: UnauthorizedError: Request with no or wrong refresh token
+    at Object.refresh [as get] (webpack-internal:///(api)/./pages/api/auth/refresh.js:27:65)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api/api-handler.js:36:13)
+    at async Object.apiResolver (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\api-utils\node.js:367:9)
+    at async DevServer.runApi (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:474:9)
+    at async Object.fn (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\next-server.js:736:37)
+    at async Router.execute (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\router.js:252:36)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\base-server.js:381:29)
+    at async DevServer.run (D:\Project_Practice\Foody\foody\node_modules\next\dist\server\dev\next-dev-server.js:724:20)
+2023-01-28 00:32:13 [development] info: Method:POST URL:/api/auth/login 
+2023-01-28 00:32:13 [development] error: ValidationError: email must be a valid email
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:63:20)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:17:5
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:63:11)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\createValidation.js:72:127
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-01-28 00:32:19 [development] info: Method:POST URL:/api/auth/login 
+2023-01-28 00:33:07 [development] info: Method:GET URL:/api/admin/products?productName=null 
+2023-01-28 00:34:24 [development] info: Method:GET URL:/api/admin/products?productName= 
+2023-01-28 00:44:51 [development] info: Method:GET URL:/api/admin/products?productName=fd 
+2023-01-28 23:55:37 [development] info: Method:GET URL:/api/admin/products 
+2023-01-28 23:55:37 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-01-28 23:55:37 [development] info: Method:GET URL:/api/auth/refresh 
+2023-01-28 23:55:38 [development] info: Method:GET URL:/api/admin/products 

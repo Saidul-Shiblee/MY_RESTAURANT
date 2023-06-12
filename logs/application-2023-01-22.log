@@ -1,0 +1,242 @@
+2023-01-22 01:30:03 [development] info: Method:PUT URL:/api/admin/products/63cc0b3a5f688928a4a0a42d 
+2023-01-22 01:30:03 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-01-22 01:30:03 [development] info: Method:GET URL:/api/auth/refresh 
+2023-01-22 01:30:04 [development] info: Method:PUT URL:/api/admin/products/63cc0b3a5f688928a4a0a42d 
+2023-01-22 01:30:04 [development] error: ValidationError: 5 errors occurred
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:63:20)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:17:5
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:67:9)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\createValidation.js:72:127
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-01-22 01:30:04 [development] info: Method:GET URL:/api/admin/products 
+2023-01-22 01:30:10 [development] info: Method:GET URL:/api/admin/products 
+2023-01-22 01:30:10 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-01-22 01:30:10 [development] info: Method:GET URL:/api/auth/refresh 
+2023-01-22 01:30:11 [development] info: Method:GET URL:/api/admin/products 
+2023-01-22 01:34:00 [development] info: Method:PUT URL:/api/admin/products/63cc0b3a5f688928a4a0a42d 
+2023-01-22 01:34:00 [development] error: ValidationError: 5 errors occurred
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:63:20)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:17:5
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:67:9)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\createValidation.js:72:127
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-01-22 01:34:00 [development] info: Method:GET URL:/api/admin/products 
+2023-01-22 01:36:04 [development] info: Method:PUT URL:/api/admin/products/63cc0b3a5f688928a4a0a42d 
+2023-01-22 01:36:04 [development] error: ValidationError: 5 errors occurred
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:63:20)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:17:5
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:67:9)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\createValidation.js:72:127
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-01-22 01:36:04 [development] info: Method:GET URL:/api/admin/products 
+2023-01-22 01:36:57 [development] info: Method:PUT URL:/api/admin/products/63cc0b3a5f688928a4a0a42d 
+2023-01-22 01:36:57 [development] error: ValidationError: 5 errors occurred
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:63:20)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:17:5
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:67:9)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\createValidation.js:72:127
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-01-22 01:36:58 [development] info: Method:GET URL:/api/admin/products 
+2023-01-22 01:37:59 [development] info: Method:PUT URL:/api/admin/products/63cc0b3a5f688928a4a0a42d 
+2023-01-22 01:38:00 [development] info: Method:GET URL:/api/admin/products 
+2023-01-22 01:38:41 [development] info: Method:DELETE URL:/api/admin/products/63cc0b3a5f688928a4a0a42d 
+2023-01-22 01:38:45 [development] info: Method:GET URL:/api/admin/products 
+2023-01-22 01:38:45 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-01-22 01:38:46 [development] info: Method:GET URL:/api/auth/refresh 
+2023-01-22 01:38:46 [development] info: Method:GET URL:/api/admin/products 
+2023-01-22 01:40:36 [development] info: Method:POST URL:/api/admin/products 
+2023-01-22 01:40:36 [development] error: ValidationError: 2 errors occurred
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:63:20)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:17:5
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:67:9)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:17:5
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:67:9)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:17:5
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:67:9)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\createValidation.js:72:127
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-01-22 01:40:36 [development] info: Method:GET URL:/api/admin/products 
+2023-01-22 01:40:43 [development] info: Method:GET URL:/api/admin/products 
+2023-01-22 01:40:43 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-01-22 01:40:43 [development] info: Method:GET URL:/api/auth/refresh 
+2023-01-22 01:40:43 [development] info: Method:GET URL:/api/admin/products 
+2023-01-22 01:40:50 [development] info: Method:GET URL:/api/admin/products 
+2023-01-22 01:40:50 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-01-22 01:40:50 [development] info: Method:GET URL:/api/auth/refresh 
+2023-01-22 01:40:50 [development] info: Method:GET URL:/api/admin/products 
+2023-01-22 01:41:32 [development] info: Method:POST URL:/api/admin/products 
+2023-01-22 01:41:32 [development] error: ValidationError: 2 errors occurred
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:63:20)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:17:5
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:67:9)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:17:5
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:67:9)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:17:5
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:67:9)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\createValidation.js:72:127
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-01-22 01:41:32 [development] info: Method:GET URL:/api/admin/products 
+2023-01-22 01:41:35 [development] info: Method:GET URL:/api/admin/products 
+2023-01-22 01:41:35 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-01-22 01:41:35 [development] info: Method:GET URL:/api/auth/refresh 
+2023-01-22 01:41:36 [development] info: Method:GET URL:/api/admin/products 
+2023-01-22 01:42:51 [development] info: Method:POST URL:/api/admin/products 
+2023-01-22 01:42:51 [development] error: ValidationError: 5 errors occurred
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:63:20)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:17:5
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:63:11)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\createValidation.js:72:104
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-01-22 01:42:51 [development] info: Method:GET URL:/api/admin/products 
+2023-01-22 01:42:55 [development] info: Method:GET URL:/api/admin/products 
+2023-01-22 01:42:55 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-01-22 01:42:55 [development] info: Method:GET URL:/api/auth/refresh 
+2023-01-22 01:42:55 [development] info: Method:GET URL:/api/admin/products 
+2023-01-22 01:43:58 [development] info: Method:POST URL:/api/admin/signature 
+2023-01-22 01:44:15 [development] info: Method:POST URL:/api/admin/products 
+2023-01-22 01:44:15 [development] error: ValidationError: 5 errors occurred
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:63:20)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:17:5
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:63:11)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\createValidation.js:72:104
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-01-22 01:44:15 [development] info: Method:GET URL:/api/admin/products 
+2023-01-22 01:45:12 [development] info: Method:POST URL:/api/admin/signature 
+2023-01-22 01:45:30 [development] info: Method:POST URL:/api/admin/products 
+2023-01-22 01:45:30 [development] error: ValidationError: Option is required
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:63:20)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:17:5
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:67:9)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:17:5
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:67:9)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:17:5
+    at finishTestRun (D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\runTests.js:67:9)
+    at D:\Project_Practice\Foody\foody\node_modules\yup\lib\util\createValidation.js:72:127
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-01-22 01:45:30 [development] info: Method:GET URL:/api/admin/products 
+2023-01-22 01:45:35 [development] info: Method:GET URL:/api/admin/products 
+2023-01-22 01:45:35 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-01-22 01:45:36 [development] info: Method:GET URL:/api/auth/refresh 
+2023-01-22 01:45:36 [development] info: Method:GET URL:/api/admin/products 
+2023-01-22 01:46:44 [development] info: Method:POST URL:/api/admin/signature 
+2023-01-22 01:46:57 [development] info: Method:POST URL:/api/admin/products 
+2023-01-22 01:46:57 [development] info: Method:GET URL:/api/admin/products 
+2023-01-22 01:52:14 [development] info: Method:POST URL:/api/admin/signature 
+2023-01-22 01:52:20 [development] info: Method:DELETE URL:/api/admin/deleteImage 
+2023-01-22 01:52:21 [development] info: Method:PUT URL:/api/admin/products/63cc41315f688928a4a0a44d 
+2023-01-22 01:52:21 [development] info: Method:GET URL:/api/admin/products 
+2023-01-22 02:23:02 [development] info: Method:GET URL:/api/customer/public/products 
+2023-01-22 02:23:03 [development] info: Method:GET URL:/api/customer/public/products 
+2023-01-22 02:38:27 [development] info: Method:GET URL:/api/admin/products 
+2023-01-22 02:38:27 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-01-22 02:38:27 [development] info: Method:GET URL:/api/auth/refresh 
+2023-01-22 02:38:27 [development] info: Method:GET URL:/api/admin/products 
+2023-01-22 02:52:43 [development] info: Method:GET URL:/api/customer/public/products 
+2023-01-22 02:52:43 [development] info: Method:GET URL:/api/customer/public/products 
+2023-01-22 02:59:26 [development] info: Method:GET URL:/api/admin/products 
+2023-01-22 02:59:26 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-01-22 02:59:26 [development] info: Method:GET URL:/api/auth/refresh 
+2023-01-22 02:59:26 [development] info: Method:GET URL:/api/admin/products 
+2023-01-22 03:31:04 [development] info: Method:GET URL:/api/customer/public/products 
+2023-01-22 03:31:04 [development] info: Method:GET URL:/api/customer/public/products 
+2023-01-22 03:39:05 [development] info: Method:GET URL:/api/customer/public/products 
+2023-01-22 03:39:08 [development] info: Method:GET URL:/api/admin/products 
+2023-01-22 03:39:08 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-01-22 03:39:08 [development] info: Method:GET URL:/api/auth/refresh 
+2023-01-22 03:39:08 [development] info: Method:GET URL:/api/admin/products 
+2023-01-22 03:39:59 [development] info: Method:GET URL:/api/customer/public/products 
+2023-01-22 03:40:24 [development] info: Method:GET URL:/api/customer/public/products 
+2023-01-22 03:40:59 [development] info: Method:GET URL:/api/customer/public/products 
+2023-01-22 03:51:20 [development] info: Method:GET URL:/api/admin/products 
+2023-01-22 03:51:20 [development] error: UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:133:35
+    at step (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\Project_Practice\Foody\foody\node_modules\express-jwt\dist\index.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-01-22 03:51:20 [development] info: Method:GET URL:/api/auth/refresh 
+2023-01-22 03:51:20 [development] info: Method:GET URL:/api/admin/products 
